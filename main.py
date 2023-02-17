@@ -85,7 +85,7 @@ def listAllRecordings():
 	
 	
 if __name__ == '__main__': 
-	mi = input('Укажите ващ meeting_id: ').replace(' ', '')
+	mi = input('Укажите ваш meeting_id: ').replace(' ', '')
 	downloadRecoding(mi)
 	
 	#listAllRecordings()
